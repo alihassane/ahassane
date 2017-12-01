@@ -6,7 +6,7 @@
 #   VERSION="6.9"                                               |
 #   perl, v5.10.1 (*) built for x86_64-linux-thread-multi       |
 #---------------------------------------------------------------|
-
+#
 use strict;
 use warnings;
 use File::Copy;
