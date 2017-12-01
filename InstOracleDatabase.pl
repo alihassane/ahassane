@@ -54,7 +54,7 @@ our @pkgs =(
 
 
 sub main(){
-=comment 01
+
 my $cmd_chk = "rpm -qa | grep -w ";
 my $cmd_inst = "yum install -y ";
 my $idx = 0;
@@ -75,7 +75,7 @@ if ($#pkgs <= 0){
 print "Total number of packages to be downloaded and installed = $#pkgs\n";
 $run_cmd = `$cmd_inst @pkgs`;
 }
-=cut 01
+
 kernel_pram();
 }
 
